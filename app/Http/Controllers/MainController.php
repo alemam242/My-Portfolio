@@ -33,7 +33,7 @@ class MainController extends Controller
     }
 
     function download(Request $request){
-        $path = "assets/raw/My_CV.pdf";
+        $path = "assets/raw/Alemam.pdf";
         return response()->download($path);
     }
 }
